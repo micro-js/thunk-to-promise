@@ -18,6 +18,7 @@ validate: node_modules
 	@${BIN}/standard
 
 release:
+	$VERSION=0.0.1
 	${BIN}/bump $$VERSION && \
 	git commit --all -m "Release $$VERSION" && \
 	git tag $$VERSION && \
