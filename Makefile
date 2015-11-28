@@ -19,9 +19,9 @@ validate: node_modules
 	@${BIN}/standard
 
 release:
-	${BIN}/bump $$VERSION && \
-	git commit --all -m "Release $$VERSION" && \
-	git tag $$VERSION && \
+	${BIN}/bump ${VERSION} && \
+	git commit --all -m "Release ${VERSION}" && \
+	git tag ${VERSION} && \
 	git push origin master --tags
 
 .PHONY: test validate release

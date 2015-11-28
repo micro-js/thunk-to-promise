@@ -2,7 +2,7 @@
   "name": "thunk-to-promise",
   "description": "Convert a thunk to a promise.",
   "repository": "git://github.com/micro-js/thunk-to-promise.git",
-  "version": "0.1.4",
+  "version": "0.0.1",
   "license": "MIT",
   "main": "lib/index.js",
   "dependencies": {},
