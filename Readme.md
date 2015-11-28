@@ -9,12 +9,12 @@ Convert a thunk to a promise.
 
 ## Installation
 
-    $ npm install @micro/thunk-to-promise
+    $ npm install thunk-to-promise
 
 ## Usage
 
 ```js
-var thunkToPromise = require('@micro/thunk-to-promise')
+var thunkToPromise = require('thunk-to-promise')
 
 ```
 
