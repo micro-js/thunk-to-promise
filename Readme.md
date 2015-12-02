@@ -10,23 +10,28 @@ Convert a thunk to a promise.
 
 ## Installation
 
-    $ npm install thunk-to-promise
+    $ npm install @micro-js/thunk-to-promise
 
 ## Usage
 
 ```js
-var thunkToPromise = require('thunk-to-promise')
+var thunkToPromise = require('@micro-js/thunk-to-promise')
+
+thunkToPromise(function (cb) {
+  cb(null, 1, 2)
+}).then(function (res) {
+  res // => [1, 2]
+})
 
 ```
 
 ## Api
 
-### thunkToPromise(arg1, arg2)
+### thunkToPromise(thunk)
 
-- `arg1` -
-- `arg2` -
+- `thunk` - thunk to convert
 
-**Returns:**
+**Returns:** a promise
 
 ## License
 

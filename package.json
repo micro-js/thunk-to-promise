@@ -1,14 +1,16 @@
 {
-  "name": "thunk-to-promise",
+  "name": "@micro-js/thunk-to-promise",
   "description": "Convert a thunk to a promise.",
   "repository": "git://github.com/micro-js/thunk-to-promise.git",
   "version": "0.1.5",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
-    "postversion": "git push && git push --tags && npm publish"
+    "postversion": "git push && git push --tags && npm publish --access=public"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@micro-js/slice": "^1.0.0"
+  },
   "devDependencies": {
     "standard": "^5.4.1",
     "tape": "^4.2.2"
