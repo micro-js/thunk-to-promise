@@ -41,7 +41,7 @@ MIT
 [travis-url]: https://travis-ci.org/micro-js/thunk-to-promise
 [git-image]: https://img.shields.io/github/tag/micro-js/thunk-to-promise.svg
 [git-url]: https://github.com/micro-js/thunk-to-promise
-[npm-image]: https://img.shields.io/npm/v/thunk-to-promise.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/thunk-to-promise
+[npm-image]: https://img.shields.io/npm/v/@micro-js/thunk-to-promise.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@micro-js/thunk-to-promise
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
 [standard-url]: https://github.com/feross/standard
